@@ -20,7 +20,7 @@ If you'd like to play Ibolang with full features included, you should install Ib
 
 You could use pip or easy_install command to install Ibolang::
 
-	$ pip install Ibolang 
+	$ pip install Ibolang (available in 2 days)
 
 			or
 
