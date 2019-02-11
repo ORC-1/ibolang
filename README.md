@@ -19,6 +19,7 @@ Install
 If you'd like to play Ibolang with full features included, you should install Ibolang.
 
 You could use pip or easy_install command to install Ibolang::
+
 	$ pip install Ibolang 
 
 			or
