@@ -36,13 +36,14 @@ ex: edit .bashrc to include "/Library/Frameworks/Python.framework/Versions/3.x/b
 
 For sytem running multiple version of python, you are better of using a virtual enviroment
 with Ibolang::
+
 	$ conda create -n Ibolang python==3.XX
 
 			or using Virtualenv
 
 	$ virtualenv ibolang python==3.XX 
 
-Lastly you can clone the repo using this url: navigate to the folder path and run python setup.py 
+Lastly you can clone the repo using this url https://github.com/ORC-1/ibolang.git : navigate to the folder path and run python setup.py 
 Copy the source files into your script folder, you should highly consider using 
 a virtual enviroment if you are using this option and the previous options are better 
 off

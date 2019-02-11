@@ -1,7 +1,1 @@
-kowa Uwahello():
-    deputa("HelloWorld -> UwaHello")
-    deputa("Igbo Amaka")
-    deputa(2+3)
-	
-	
-Uwahello()
+deputa("UwaHello ~ Igbo Amaka")
