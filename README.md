@@ -1,8 +1,8 @@
 Introduction
 --------------
 
-"Igbo is an indigenous language popularly spoken in Nigeria, Ibolang is a full 
-extension of the Igbo language in Python.
+Igbo is an indigenous language popularly spoken in Nigeria, Ibolang is a full 
+extension of the Igbo language in Python. <br />
 With Ibolang, you can write and run python like programs in Igbo
 
 Ibolang acts like python 3 and plays like python 3, it maintains all the python syntax 
@@ -57,4 +57,4 @@ You could view the ChangeLog to see what's new in these version.
 
   * http://github.com/orc-1/ibolang/CHANGELOG.txt
 
-"""
+
