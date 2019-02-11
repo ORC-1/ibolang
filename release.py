@@ -9,7 +9,7 @@ email = "Rolandazim@gmail.com"
 copyright = "Copyright 2019~ Roland|Chima and contributors"
 license = "MIT <http://www.opensource.org/licenses/mit-license.php>"
 url = ""
-download_url=""
+download_url="https://github.com/ORC-1/ibolang/tree/master/ibl_pip"
 description="programming language in Igbo"
 long_description = """
 .. contents::
