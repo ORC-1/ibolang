@@ -29,8 +29,7 @@ setup(
     author=release.author,
     author_email=release.email,
     download_url=release.download_url,
-    # py_modules=['core','ibolang','ig_tran','igbolang',],
-    packages = ['ibl'],
+    py_modules=['core','ibolang','ig_tran','igbolang',],
     license=license,
     keywords = "traditional, simplified, Igbo, Afrocode, language, tokenize",
     description=release.description,
@@ -40,7 +39,7 @@ setup(
     install_requires = required_modules,
     extras_require = extra_modules,
     include_package_data = True,
-    # packages=find_packages(exclude=["ez_setup", 'examples', 'apidocs', "tests"]),
+    packages=find_packages(exclude=["ez_setup", 'examples', 'apidocs', "tests"]),
     entry_points = """
     [console_scripts]
     ibolang = ibolang:commandline
