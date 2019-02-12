@@ -34,7 +34,8 @@ To run programs is as simple as::
   from your preferred shell or command line  
 
   you can go through to the dictionary on: 
-  * https://github.com/orc-1/dictionary.txt 
+  * https://github.com/ORC-1/ibolang/blob/master/dictionary.txt
+      
   to get an exhaustive list of all currently available commands and there English translation
 
 Install
@@ -79,6 +80,6 @@ Change Log
 
 You could view the ChangeLog to see what's new in these version.
 
-  * http://github.com/orc-1/ibolang/CHANGELOG.txt
+  * https://github.com/ORC-1/ibolang/blob/master/CHANGELOG.txt
 
 
