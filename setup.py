@@ -45,7 +45,7 @@ setup(
     
     """,
     classifiers = [
-        'Development Status :: Beta',
+        'Development Status :: 4 - Beta',
         'Environment :: Console',
         'Intended Audience :: Education',
         'Intended Audience :: Developers',
