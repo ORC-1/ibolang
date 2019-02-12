@@ -3,13 +3,13 @@
 """Release information"""
 
 
-version = "0.0.4"
+version = "0.0.1"
 author = "Roland|Chima"
 email = "Rolandazim@gmail.com"
 copyright = "Copyright 2019~ Roland|Chima and contributors"
 license = "MIT <http://www.opensource.org/licenses/mit-license.php>"
 url = "https://github.com/ORC-1/ibolang"
-download_url="https://github.com/ORC-1/ibolang/tree/master/ibl_pip"
+download_url="https://github.com/ORC-1/ibolang"
 description="programming language in Igbo"
 long_description = """
 .. contents::
