@@ -31,7 +31,7 @@ THE SOFTWARE.
 
 from igbolang import IgboPlugin
 
-# Simplised Igbo keywords
+# Igbo keywords
 class igbo_keyword(IgboPlugin):
     """
     python igbo keyword

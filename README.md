@@ -9,9 +9,33 @@ Ibolang acts like python 3 and plays like python 3, it maintains all the python 
 and methods.
 user could use it to learn programming in their native language.
 
-Check examples here.
+Example
+----------
+ibolang is highly user freindly, the following is a simple "HelloWorld" program::
+       
+       deputa("Uwa Aloo")
 
-  * https://github.com/orc-1/ibolang/examples
+ <br />
+ running this, will diplay::
+         
+         Uwa Aloo 
+
+to console, which translated to English is "Hello World"
+
+you can code more complex code by installing it to your PC or by using the ibolang online IDE.
+
+  * https://github.com/orc-1/ibolang (Available by 19-2-2019)
+
+<br />
+To run programs is as simple as::
+
+     $ ibolang filename.ibl
+
+  from your preferred shell or command line  
+
+  you can go through to the dictionary on: 
+  * https://github.com/orc-1/dictionary.txt 
+  to get an exhaustive list of all currently available commands and there English translation
 
 Install
 ----------
