@@ -3,7 +3,7 @@
 """Release information"""
 
 
-version = "0.0.1"
+version = "0.0.2"
 author = "Roland|Chima"
 email = "Rolandazim@gmail.com"
 copyright = "Copyright 2019~ Roland|Chima and contributors"
