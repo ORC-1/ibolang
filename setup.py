@@ -29,6 +29,7 @@ setup(
     author=release.author,
     author_email=release.email,
     download_url=release.download_url,
+    py_modules=['core','ibolang','ig_tran','igbolang',],
     license=license,
     keywords = "traditional, simplified, Igbo, Afrocode, language, tokenize",
     description=release.description,
