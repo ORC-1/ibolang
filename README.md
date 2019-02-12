@@ -11,12 +11,12 @@ user could use it to learn programming in their native language.
 
 Example
 ----------
-ibolang is highly user freindly, the following is a simple "HelloWorld" program::
+ibolang is highly user friendly, the following is a simple "HelloWorld" program
        
        deputa("Uwa Aloo")
 
  <br />
- running this, will diplay::
+ running this, will diplay
          
          Uwa Aloo 
 
@@ -27,7 +27,7 @@ you can code more complex code by installing ibolang to your PC or by using the 
   * https://github.com/orc-1/ibolang (Available by 19-2-2019)
 
 <br />
-To run programs is as simple as::
+To run programs is as simple as:
 
      $ ibolang filename.ibl
 
@@ -43,7 +43,7 @@ Install
 
 If you'd like to play Ibolang with full features included, you should install Ibolang.
 
-You could use pip or easy_install command to install Ibolang::
+You could use pip or easy_install command to install Ibolang:
 
 	$ pip install Ibolang (available in 2 days)
 
@@ -60,7 +60,7 @@ And check your system path params if it contains python3.x/bin path.
 ex: edit .bashrc to include "/Library/Frameworks/Python.framework/Versions/3.x/bin" in your PATH parameter.
 
 For sytem running multiple version of python, you are better of using a virtual enviroment
-with Ibolang::
+with Ibolang:
 
 	$ conda create -n Ibolang python==3.XX
 
