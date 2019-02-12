@@ -39,7 +39,7 @@ setup(
     install_requires = required_modules,
     extras_require = extra_modules,
     include_package_data = True,
-    packages=find_packages(exclude=["ez_setup", 'examples', 'apidocs', "tests"]),
+    packages=find_packages(exclude=["ez_setup", 'examples', 'apidocs', "tests", "ibl"]),
     entry_points = """
     [console_scripts]
     ibolang = ibolang:commandline
