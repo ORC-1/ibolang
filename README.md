@@ -22,7 +22,7 @@ ibolang is highly user freindly, the following is a simple "HelloWorld" program:
 
 to console, which translated to English is "Hello World"
 
-you can code more complex code by installing it to your PC or by using the ibolang online IDE.
+you can code more complex code by installing ibolang to your PC or by using the ibolang online IDE.
 
   * https://github.com/orc-1/ibolang (Available by 19-2-2019)
 
