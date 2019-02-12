@@ -3,7 +3,7 @@
 """Release information"""
 
 
-version = "0.0.1"
+version = "0.0.2"
 author = "Roland|Chima"
 email = "Rolandazim@gmail.com"
 copyright = "Copyright 2019~ Roland|Chima and contributors"
@@ -60,7 +60,7 @@ If you'd like to play Ibolang with full features included, you should install Ib
 
 You could use pip or easy_install command to install Ibolang:
 
-	$ pip install Ibolang (available in 2 days)
+	$ pip install Ibolang 
 
 			or
 

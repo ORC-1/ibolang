@@ -45,7 +45,7 @@ If you'd like to play Ibolang with full features included, you should install Ib
 
 You could use pip or easy_install command to install Ibolang:
 
-	$ pip install Ibolang (available in 2 days)
+	$ pip install Ibolang 
 
 			or
 
@@ -66,7 +66,7 @@ with Ibolang:
 
 			or using Virtualenv
 
-	$ virtualenv ibolang python==3.XX 
+	$ virtualenv ibolang  
 
 Lastly you can clone the repo using this url https://github.com/ORC-1/ibolang.git : navigate to the folder path and run python setup.py 
 Copy the source files into your script folder, you should highly consider using 
