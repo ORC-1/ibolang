@@ -22,9 +22,9 @@ ibolang is highly user friendly, the following is a simple "HelloWorld" program
 
 to console, which translated to English is "Hello World"
 
-you can code more complex code by installing ibolang to your PC or by using the ibolang online IDE.
+you can code more complex code by installing ibolang to your PC or by using the ibolang online IDE(coming soon...).
 
-  * https://github.com/orc-1/ibolang (Available by 19-2-2019)
+  * https://github.com/ORC-1/ibolang/tree/master/examples (example codes)
 
 <br />
 To run programs is as simple as:
@@ -73,7 +73,20 @@ Copy the source files into your script folder, you should highly consider using
 a virtual enviroment if you are using this option and the previous options are better 
 off
 
+For <h1>Absolute Beginners</h1>:
 
+
+      follow this link: 
+      https://www.python.org/ftp/python/3.7.2/python-3.7.2.exe
+      download python 3 install it and ensure it's working
+
+<h1>Then:</h1>
+          
+  You can use pip to install Ibolang:
+
+      $ pip install Ibolang 
+    
+  Go to the example here , clone the repository and run them with ibolang filename.ibl
 
 Change Log
 -------------
