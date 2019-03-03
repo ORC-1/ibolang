@@ -1,0 +1,15 @@
+
+deputa("Factorial")
+num = int(ntinye("tinye numba: "))
+
+factorial = 1
+
+# nyocha ma o buru na onu ogugu ahu adighi mma, nti ma o bu 0
+oburu num < 0:
+   deputa("Ndo, factorial adighi adi maka numba na-adighi mma")
+ozobu num == 0:
+   deputa("factorial 0 bu 1")
+ozo:
+   maka i nime renji(1,num + 1):
+       factorial = factorial*i
+   deputa("factorial",num,"bu",factorial)

@@ -1,0 +1,46 @@
+# Program make a simple calculator that can add, subtract, multiply and divide using functions
+
+# This function adds two numbers
+#function ga igbako numba na abu 
+kowa igbako(x, y):
+   ibia x + y
+# This function subtracts two numbers
+#function ga wepu numba na abu  
+kowa wepu(x, y):
+   ibia x - y
+
+# This function multiplies two numbers
+#function ga mubaa numba na abu 
+kowa mubaa(x, y):
+   ibia x * y
+
+# This function divides two numbers
+#function ga kewaa numba na abu 
+kowa kewaa(x, y):
+   ibia x / y
+
+deputa("Kedu ihe i choro ime")
+deputa("1.igbako")
+deputa("2.wepu")
+deputa("3.mubaa")
+deputa("4.kewaa")
+
+# Take input from the user 
+nhoro = ntinye("Siri eba horo ofu(1/2/3/4):")
+
+num1 = int(ntinye("tinye numba masiri gi: "))
+num2 = int(ntinye("tinye numba nka abu masiri gi: "))
+
+oburu nhoro == '1':
+   deputa(num1,"+",num2,"=", igbako(num1,num2))
+
+ozobu nhoro == '2':
+   deputa(num1,"-",num2,"=", wepu(num1,num2))
+
+ozobu nhoro == '3':
+   deputa(num1,"*",num2,"=", mubaa(num1,num2))
+
+ozobu nhoro == '4':
+   deputa(num1,"/",num2,"=", kewaa(num1,num2))
+ozo:
+   deputa("imere mistake")

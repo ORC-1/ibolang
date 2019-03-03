@@ -1,0 +1,12 @@
+# This program adds two numbers
+#program ga daputa igbako numba na abu 
+
+num1 = 1.5
+num2 = 6.3
+
+# Add two numbers
+#igbako ha 
+Mgbako = float(num1) + float(num2)
+
+# Display the sum
+deputa('Mgbako {0} na {1} bu {2}'.format(num1, num2, Mgbako))

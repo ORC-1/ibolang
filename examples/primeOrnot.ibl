@@ -1,0 +1,23 @@
+# ibolang program to check if the input number is prime or not
+# programa ga e checki oburu na ntinye numba bu prime ku obuya 
+
+#num = 507
+
+# take input from the user
+# nara input 
+num = int(ntinye("tinye numba: "))
+
+# prime numba na kari 1
+oburu num > 1:
+   # ne ayi factors
+   maka i nime renji(2,num):
+       oburu (num % i) == 0:
+           deputa(num,"obughi prime numba")
+           deputa(i,"times",num//i,"bu",num)
+           ikwusi
+   ozo:
+       deputa(num,"bu prime numba")
+       
+# oburu na numba aru 1 or o nu bu ntakiri 1 obu prime numba
+ozo:
+   deputa(num,"obughi prime numba")
