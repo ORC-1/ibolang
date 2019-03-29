@@ -25,17 +25,12 @@ def commandline():
             print("ibl: file '%s' does not exists" % file_path)
             sys.exit(1)
 
-        #sys.meta_path = [ImportHook()]
-
         sys.path[0] = os.path.dirname(os.path.join(os.getcwd(), file_path))
 
-        source = transpile(src=open(file_path))
-
-        #translate_module(__builtins__)
-
-        code_object = compile(source, file_path, "exec")
-
-        runpy._run_module_code(code_object, mod_name="__main__")
+        with open(file_path) as ibolang:
+            python = transpile(src=ibolang)
+            code_object = compile(python, file_path, "exec")
+            runpy._run_module_code(code_object, mod_name="__main__")
 
     else:
         sys.ps1 = "ibl>> "
